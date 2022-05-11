@@ -13,4 +13,4 @@ panjang=st.number_input('Inputkan nilai panjang (0-50)', 0, 50)
 lebar=st.number_input('Inputkan nilai lebar (0-50)', 0, 50)
 luas=panjang*lebar
 ##st.subheader(f'Luas segi empat = {luas:,d} satuan.')
-st.subheader('Luas segi empat = ',luas,' satuan.')
+st.write('Luas segi empat = ',luas,' satuan.')
