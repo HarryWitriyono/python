@@ -9,3 +9,4 @@ lebar=float(input("Input nilai lebarnya : "))
 luas=panjang*lebar
 print("Luas segitiga = ",luas," satuan")
 ''')
+st.number_input('Inputkan nilai panjang', 0, 10)
