@@ -1,3 +1,5 @@
+import streamlit as st
+st.title("Hitung Luas Segi Empat")
 print("Hitung Luas Segi Empat")
 panjang=float(input("Input nilai panjangnya : "))
 lebar=float(input("Input nilai lebarnya : "))
