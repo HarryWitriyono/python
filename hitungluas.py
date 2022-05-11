@@ -1,6 +1,6 @@
 import streamlit as st
 st.sidebar.markdown("### My first Awesome App")
-st.sidebar.markdown("Welcome to my first awesome app. This app is built using Streamlit and uses data source from redfin housing market data. I hope you enjoy!")
+st.sidebar.markdown("Berikut ini adalah pemrograman sederhana dengan python yang dapat anda coba.  Program ini untuk menghitung luas segi empat.")
 st.title("Hitung Luas Segi Empat")
 st.markdown('''
 print("Hitung Luas Segi Empat")
