@@ -17,10 +17,12 @@ if st.button('Instal Databasenya'):
   st.write('Database sudah ada ! Apakah akan dihapus ?')
   if st.button('Ya'):
    mycursor.execute("drop database "+namadb)
+   mydb.commit()
   if st.button('Tidak'):
    st.write('Database '+namadb+' tidak jadi dibuat !')
    exit() 
+ mycursor.execute("select schema_name from information_schema.schemata where schema_name='"+namadb+"';")
+ myresult=mycursor.fetchall()
+ if not myresult:
   mycursor.execute("create database "+namadb)
   st.write('Database '+namadb+' berhasil dibuat !')
-  
- 
